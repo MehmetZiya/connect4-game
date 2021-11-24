@@ -21,3 +21,97 @@
   border-radius: 50%;
   box-shadow: 5px 5px 5px gray;
 }
+
+.drop-button {
+  cursor: pointer;
+  border: 1px solid transparent;
+  color: white;
+  padding: 0 2px;
+  margin-bottom: 1rem;
+}
+
+.drop-button:hover {
+  transform: translate(0, 0.6rem);
+}
+
+.settings a {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(134, 134, 134);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.settings {
+  margin-top: 2rem;
+}
+.settings a:hover {
+  background-color: rgb(173, 173, 173);
+}
+
+.restartBtn,
+.undoBtn {
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin: 1rem;
+}
+.restartBtn:hover,
+.undoBtn:hover {
+  background-color: white;
+}
+.formControl {
+  display: flex;
+  width: 20rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(194, 194, 194);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 5px 5px 5px gray;
+  position: relative;
+}
+.setColRow {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.minus {
+  font-size: 2rem;
+  color: rgb(211, 30, 30);
+  cursor: pointer;
+}
+
+.plus {
+  font-size: 2rem;
+  color: rgb(8, 185, 8);
+  cursor: pointer;
+}
+
+.input {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.input input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.goBack {
+  cursor: pointer;
+  font-size: 2rem;
+  color: rgb(211, 30, 30);
+  border-radius: 50%;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.goBack i {
+  background-color: white;
+  border-radius: 50%;
+}
