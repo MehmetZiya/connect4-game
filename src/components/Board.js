@@ -1,4 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { BoardSettingsContext } from '../context/BoardContext'
 import { SizingSettingsContext } from '../context/SizingContext'
 import { WinningContext } from '../context/WinningContext'
@@ -70,6 +71,11 @@ const Board = () => {
         ))}
       </div>
       <GameControlPanel />
+      <div className='settings'>
+        <Link to='/settings'>
+          <i className='fas fa-cogs'></i> Settings
+        </Link>
+      </div>
     </>
   )
 }
